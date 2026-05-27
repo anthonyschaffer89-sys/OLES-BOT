@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made by John",
+        name: "Made with ❤️",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -412,33 +412,10 @@ export const botConfig = {
         name: "👤 Humans",
         description: "Total human members (non-bots)",
         getCount: (guild) =>
-       guild.members.cache.filter((m) => !m.user.bot).size.toString(),
+          guild.members.cache.filter((m) => !m.user.bot).size.toString(),
       },
-      members_only: {
-        name: "👤 Humans",
-        OLES Server Rules and Regulations: @everyone
-
-      Welcome to OLES!  We are glad to have you here so that we can all be a part of a great gaming community.  To keep things fun, fair, and safe for everyone, we ask that you read over and follow these rules.  We take this VERY seriously and will strictly enforce them to make sure this is a fun space for everyone.
-      No discrimination of any kind that targets an individual’s race, religion, sexual orientation, etc.,
-      Any harmful or derogatory use of language in any of the chats is forbidden.,
-      Do not post any personal information in the chats.,
-      Do not post spam, inappropriate images, or promotions for another server.  KEEP IT PG!,
-      You may NOT ping “everyone” in a chat unless you are a staff member or are given permission to do so.,
-      If you are going live or livestreaming any gaming content, you must be in the “Gaming Lobby 1” VC which is strictly for live streaming.,
-      Do not post any kind of spoilers for new games, movies, etc.,
-      Contacting a staff member directly is forbidden unless you are given permission to or it is for a serious matter.,
-      We ask that all discussions, posts, and VC’s are in English.,
-     Always treat EVERYONE with respect regardless of age, sex, race, etc.  This is a ZERO TOLLERANCE rule!,
-     Keep politics out of chats and VC channels.,
-     Violating any of these rules will result in a warning and a meeting with the HR Director and staff.  We use the 3-strike system, and the warning is your first strike.  Strike 2 will result in 12-hour ban (depending on severity of the violation) from any of the servers and the discord.  Strike 3 can and will result in up to a 1-week ban and/or permanent dismissal from the servers and discord.
-     Reporting a player:  If you need to report a player for violating any of the rules listed above, please create a “HR Ticket” and the HR director with get with you as soon as he can.
-
-    Following these rules is simple so go out there and have fun!  -HR Director E. Smitty and the OLES Staff Team
-    
-     },
     },
   },
-  
 
   // =========================
   // GENERIC BOT MESSAGES
@@ -566,3 +543,7 @@ export function getRandomColor() {
 }
 
 export default botConfig;
+
+
+
+
